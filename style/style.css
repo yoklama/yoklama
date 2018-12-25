@@ -1,0 +1,47 @@
+.main{
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+.header{
+    width: 100%;
+    text-shadow: 0px 0px 3px black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.text_left{
+    text-align: left;
+}
+
+
+@keyframes blink {
+    0% { text-shadow: 0px 0px 1px red; }
+    50% { text-shadow: 0px 0px 0px black; }
+    100% { text-shadow: 0px 0px 1px red; }
+}
+
+@-webkit-keyframes blink {
+    0% { text-shadow: 0px 0px 1px red; }
+    50% { text-shadow: 0px 0px 0px black; }
+    100% { text-shadow: 0px 0px 1px red; }
+}
+
+.blink {
+    -webkit-animation: blink 1.0s linear infinite;
+    animation: blink 1.0s linear infinite;
+    font-weight: normal;
+}
+
+.copy-left {
+   display: inline-block;
+   text-align: right;
+   margin: 0;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
