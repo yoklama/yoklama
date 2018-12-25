@@ -3,7 +3,7 @@ return [
     // database yolu
     'baslik' => 'Özel Antalya Sınav Anadolu Lisesi Yoklama Yazılımı',
     'kontrol_baslik' => 'Özel Antalya Sınav Anadolu Lisesi Yoklama Kontrol Paneli',
-    'dbname' => '/home/pi/db/anadolulisesi.sql.db',
+    'dbname' => '/db/anadolulisesi.sql.db',
     'seviyeler' => ["9. SINIFLAR", "10. SINIFLAR", "11. SINIFLAR", "12. SINIFLAR"],
     'birincisiniflar' => ["9A", "9B", "9C"],
     'ikincisiniflar' => ["10A", "10B", "10C"],
